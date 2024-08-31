@@ -420,7 +420,7 @@ nav img {
     margin-left: 1%;
 }
 .parent13{
-    background-image: url(image\ folder/light-live-background-css.jpg);
+    background-color: white;
     height: 430px;
     margin-top: 5%;
     display: flex;
@@ -489,7 +489,7 @@ nav img {
 }
 .child13 h3{
     font-family: Arial, Helvetica, sans-serif;
-    margin-top: 15px;
+    margin-top: 25px;
     font-size: 20px;
 }
 .child13 p{
