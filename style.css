@@ -23,11 +23,13 @@ nav img {
     display: flex;
     margin-top: -50px;
 }
-.link1 a:hover, .link2 a:hover, .link3 a:hover{
-    border-color: cadetblue;
-    border-top:2px solid khaki;
+
+.link1 a:hover,
+.link2 a:hover,
+.link3 a:hover {
+    border-top: 2px solid khaki;
     border-bottom: 2px solid khaki;
-   color:blanchedalmond;
+    color: palegreen;
 }
 
 .link1 a,
@@ -43,7 +45,7 @@ nav img {
     margin-left: 2%;
 }
 
-.link2 {
+.link2{
     text-decoration: none;
     margin-left: 45px;
     color: white;
@@ -124,12 +126,22 @@ nav img {
     text-align: center;
 }
 
-.child2 a,.child3 a,.child4 a {
+.child2 a,
+.child3 a,
+.child4 a {
     text-decoration: none;
     color: white;
     border: 1px solid gray;
     border-radius: 70px;
     padding: 15px 40px 15px 40px;
+}
+
+.child2 a:hover,
+.child3 a:hover,
+.child4 a:hover {
+    background-color: palegreen;
+    box-shadow: 1px 1px 1px 1px red;
+    color: black;
 }
 
 .parent3 {
@@ -198,6 +210,12 @@ nav img {
     padding: 15px 45px 15px 45px;
 }
 
+.child5 a:hover,
+.child6 a:hover {
+    background-color: whitesmoke;
+    color: black;
+}
+
 .child6 {
     margin-left: 48%;
     margin-top: 12%;
@@ -263,6 +281,13 @@ nav img {
 .child7 {
     height: 500px;
     text-align: center;
+}
+
+.child7 a:hover,
+.child8 a:hover {
+    color: white;
+    background-color: red;
+
 }
 
 .link4 {
@@ -339,128 +364,145 @@ nav img {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 12px;
 }
-.parent10{
+
+.parent10 {
     color: white;
 }
-.parent10 h1{
+
+.parent10 h1 {
     font-size: 50px;
     text-align: center;
     margin-top: 5%;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
-.parent10 h1 b{
+
+.parent10 h1 b {
     font-size: 60px;
-    font-family:'Times New Roman', Times, serif;
+    font-family: 'Times New Roman', Times, serif;
 }
-.parent10 img{
+
+.parent10 img {
     width: 670px;
     height: 400px;
     margin-top: 3%;
 }
-.child9{
+
+.child9 {
     float: right;
     margin-top: 8%;
     margin-right: 4%;
 }
-.child9 h6{
+
+.child9 h6 {
     color: red;
     font-size: 15px;
 }
-.child9 h2{
+
+.child9 h2 {
     font-size: 35px;
     margin-top: 2%;
 }
-.child9 p{
+
+.child9 p {
     font-size: 17px;
     margin-top: 5%;
     font-family: Arial, Helvetica, sans-serif;
 }
-.link6{
+
+.link6 {
     text-decoration: none;
     color: white;
     font-family: Arial, Helvetica, sans-serif;
 }
-.link7{
+
+.link7 {
     text-decoration: none;
     color: white;
     border-radius: 70px;
     padding: 15px 45px 15px 45px;
     background-color: green;
 }
-.parent11{
+
+.parent11 {
     color: white;
     margin-top: 5%;
     text-align: center;
 }
-.parent11 h1{
-    font-size:50px ;   
+
+.parent11 h1 {
+    font-size: 50px;
 }
-.parent11 h1 b{
-    font-size:30px ;
+
+.parent11 h1 b {
+    font-size: 30px;
 }
-.child10 img{
-    width: 350px;
-    height: 250px;
-    border-radius: 10px;
-    margin: 1%;
-    margin-top: 1%;
-}
-.parent12{
+
+.parent12 {
     color: white;
     margin-top: 5%;
 }
-.parent12 h3{
+
+.parent12 h3 {
     text-align: center;
     font-size: 40px;
 }
-.parent12 img{
+
+.parent12 img {
     width: 250px;
     height: 200px;
     margin-top: 3%;
     margin-left: 1%;
 }
-.parent13{
+
+.parent13 {
     background-image: url(light-live-background-css.jpg);
     height: 430px;
     margin-top: 5%;
     display: flex;
 }
-.child11{
-   margin-top:5%;
-   margin-left: 5%;
+
+.child11 {
+    margin-top: 5%;
+    margin-left: 5%;
 }
-.child11 img{
+
+.child11 img {
     width: 170px;
     height: 80px;
     border-radius: 5px;
 }
-.child11 p{
+
+.child11 p {
     margin-top: 5%;
     width: 430px;
     height: 190px;
     font-size: 18px;
     font-family: Arial, Helvetica, sans-serif;
 }
-.link8{
+
+.link8 {
     text-decoration: none;
     font-size: 18PX;
     color: black;
     font-family: Arial, Helvetica, sans-serif;
 }
-.link9{
+
+.link9 {
     margin-left: 15px;
     text-decoration: none;
     font-size: 18PX;
     color: black;
     font-family: Arial, Helvetica, sans-serif;
 }
+
 .child12 {
     margin-top: 5%;
     font-family: 'Times New Roman', Times, serif;
     font-size: 20px;
     margin-left: 3%;
 }
-.child12 a{
+
+.child12 a {
     display: flex;
     margin-top: 15px;
     text-decoration: none;
@@ -468,53 +510,112 @@ nav img {
     font-family: Arial, Helvetica, sans-serif;
     color: black;
 }
-.child12 h2{
+
+.child12 h2 {
     font-size: 30px;
 }
-.child13{
+
+.child13 {
     margin-left: 8%;
     margin-top: 5%;
     font-family: 'Times New Roman', Times, serif;
     font-size: 22px;
 }
-.child13 a{
-      margin-top: 5px;
+
+.child13 a {
+    margin-top: 5px;
     text-decoration: none;
     font-size: 18px;
     font-family: Arial, Helvetica, sans-serif;
     color: black;
 }
-.child13 h2{
+
+.child13 h2 {
     font-size: 30px;
 }
-.child13 h3{
+
+.child13 h3 {
     font-family: Arial, Helvetica, sans-serif;
     margin-top: 25px;
     font-size: 20px;
 }
-.child13 p{
-    margin-top: 5px ;
+
+.child13 p {
+    margin-top: 5px;
     font-size: 18px;
 }
-.child14{
-   margin-left: 5%;
-   margin-top: 5%;
+
+.child14 {
+    margin-left: 5%;
+    margin-top: 5%;
 }
-.child14 h2{
+
+.child14 h2 {
     font-family: 'Times New Roman', Times, serif;
     font-size: 30px;
 }
-.child14 img{
+
+.child14 img {
     width: 35px;
     height: 35px;
     border-radius: 50%;
     margin-top: 15px;
     margin-inline: 5px;
 }
-.child15 img{
+
+.child15 img {
     width: 150px;
     height: 70px;
     border-radius: 5px;
     margin-inline: 0px;
 }
 
+.class {
+    background-color: white;
+    color: black;
+    width: 330px;
+    height: 280px;
+
+    text-align: center;
+    margin-top: 3%;
+    border-radius: 5px;
+}
+
+.class h2 {
+    color: black;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 35px;
+    margin-top: 4%;
+}
+
+.class img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    margin-top: 2%;
+}
+
+.class h5 {
+    color: red;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 2%;
+}
+
+.class p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    margin-top: 3%;
+}
+
+.main {
+    display: flex;
+    margin-right: 8%;
+    margin-left: 8%;
+    justify-content: space-evenly;
+}
+
+.main1 {
+    display: flex;
+    justify-content: space-evenly;
+}
